@@ -46,7 +46,7 @@ function Posts() {
             onChange={(event) => setSearchId(event.target.value)}
             onKeyDown={(event) => onSearchKeyPress(event.key)}
           />
-          <button onClick={onSearch()}>Enter</button>
+          <button onClick={onSearch}>Enter</button>
         </div>
       </div>
       {!load
